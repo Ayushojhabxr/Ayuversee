@@ -1,6 +1,6 @@
 # AyuVerse Chat Room 🚀
 
-A **real-time chat application** built using **React.js**, **Tailwind CSS**, and **Appwrite** for authentication, database, and real-time messaging.
+A **real-time chat room** built using **React.js**, **Tailwind CSS**, and **Appwrite** for authentication, database, and real-time messaging.
 
 
 
@@ -12,7 +12,7 @@ A **real-time chat application** built using **React.js**, **Tailwind CSS**, and
 - ✅ **User Authentication** – Secure login/signup using Appwrite Authentication.
 - ✅ **One-on-One Chats** – Chat directly with other registered users.
 - ✅ **Responsive UI** – Fully optimized for mobile and desktop.
-- ✅ **Light/Dark Mode** – Toggle between dark and light themes.
+- ✅ UI is based on Dark Theme.
 
 ## ⚙️ Tech Stack
 - **Frontend:** React.js, Tailwind CSS  
@@ -24,7 +24,7 @@ A **real-time chat application** built using **React.js**, **Tailwind CSS**, and
 ### 1️⃣ Clone the repository
 ```sh
 git clone https://github.com/Ayushojhabxr/AyuVersee.git
-cd AyuVerse
+cd AyuVersee
 ```
 
 ### 2️⃣ Install dependencies
@@ -36,10 +36,8 @@ npm install
 - Sign up at [Appwrite](https://cloud.appwrite.io).
 - Create a new project.
 - Enable **Authentication** (Email/Password).
-- Create a **Database** with a `messages` collection having these attributes:
-  - **userId** (String)
-  - **message** (String)
-  - **timestamp** (Integer)
+- Create a **Database** with a `messages` collection having  attributes:
+  
 - Enable **Realtime Messaging**.
 
 ### 4️⃣ Set up environment variables
